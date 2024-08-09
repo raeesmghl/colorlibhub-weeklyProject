@@ -14,3 +14,13 @@ npm init
 ```
 npm install -D tailwindcss
 ```
+
+
+
+#### Initialize tailwind / create a tailwind.config.js file
+
+```
+npx tailwindcss init
+```
+
+
