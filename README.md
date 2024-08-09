@@ -44,3 +44,35 @@ module.exports = {
   plugins: [],
 }
 ```
+
+
+
+
+#### Add the Tailwind directives to your CSS (input css file);
+
+```
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+```
+
+
+
+#### start the Tailwind CLI build process
+
+- now style.css contains all the styles you will use in your project (default css by tailwind)
+
+```
+npx tailwindcss -i ./src/input.css -o ./dist/style.css
+```
+
+#### connect style.css with index.html
+
+``` CSS
+<link rel="stylesheet" href="style.css">
+```
+
+
+
+
+
