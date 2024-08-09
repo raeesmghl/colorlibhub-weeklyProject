@@ -1,4 +1,5 @@
 
+
 ### start the project with CLI
 
 As we are gonna use 'tailwind cli' your project should be a node project.
@@ -15,17 +16,11 @@ npm init
 npm install -D tailwindcss
 ```
 
-
-
 #### Initialize tailwind / create a tailwind.config.js file
 
 ```
 npx tailwindcss init
 ```
-
-
-
-
 
 
 #### set the content path in tailwind.config.js
@@ -34,7 +29,7 @@ npx tailwindcss init
 
 - style.css or output.css is the file where all the css code for the utility classes (you will use in your project) is created.
 
-``` 
+``` json
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./dist/**/*.{html,js}'],
@@ -47,7 +42,6 @@ module.exports = {
 
 
 
-
 #### Add the Tailwind directives to your CSS (input css file);
 
 ```
@@ -55,6 +49,8 @@ module.exports = {
 @tailwind components;
 @tailwind utilities;
 ```
+
+
 
 
 
@@ -71,8 +67,6 @@ npx tailwindcss -i ./src/input.css -o ./dist/style.css
 ``` CSS
 <link rel="stylesheet" href="style.css">
 ```
-
-
 
 
 
