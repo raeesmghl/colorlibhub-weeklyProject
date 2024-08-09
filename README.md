@@ -1,4 +1,4 @@
-## Project insites
+## Project insites and important points to rememer
 
 ### start the project with CLI
 
